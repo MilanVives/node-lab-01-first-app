@@ -1,0 +1,10 @@
+{
+  "name": "node-lab-01-first-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node groups.js",
+    "test": "node --test --test-force-exit \"test/**/*.test.js\"",
+    "submit": "node scripts/submit.cjs"
+  }
+}
