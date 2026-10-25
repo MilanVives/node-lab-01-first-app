@@ -10,7 +10,7 @@ npm test
 node groups.js
 ```
 
-`npm test` runs the same checks as the autograder. Run a single requirement with `npm test -- --test-name-pattern="^R1:"`.
+`npm test` runs the same checks as the autograder. Run a single requirement with `node --test --test-name-pattern="^R1:" "test/**/*.test.js"`.
 
 ## Requirements
 
